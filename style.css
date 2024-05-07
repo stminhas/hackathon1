@@ -1,0 +1,80 @@
+
+nav ul {
+    list-style: none;
+    ;
+    -webkit-margin-bottom-collapse: 0;
+    margin-bottom: 10;
+    border-bottom: #4602f1;
+   
+    }
+    .text:hover {
+       text-decoration: underline;
+      
+      }
+
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+
+body{
+    background-image: url(mountains-morning-snow-rock-mountain-landscape.png);
+
+
+    @media (hover: hover) {
+        color: rebeccapurple;
+      }
+}
+
+
+p{ 
+    
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    margin-top: 11%;
+}
+.logo{
+    margin-right: 65%;
+}
+
+.text2:hover{
+    text-decoration: underline;
+}
+
+.navbar:hover{ text-decoration:underline;}
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Styles for screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Styles for screens larger than 900px */
+@media (min-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+    
+}
